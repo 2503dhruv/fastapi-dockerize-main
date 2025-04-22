@@ -39,4 +39,4 @@ jobs:
         run: |
           echo "${{ secrets.DOCKERTOKEN }}" | docker login -u "dhruv9591" --password-stdin
           docker build -t dhruv9591/fastapi-dockerize-main:v0.1 .
-          docker push dhruv9591/fastapi-dockerize-main:v0.1 .
+          docker push dhruv9591/fastapi-dockerize-main:v0.1
